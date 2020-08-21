@@ -1,3 +1,7 @@
+layout: page
+title: "Sverker"
+permalink: /
+
 ## Sverker's road to InfoSec
 
 ### Over The Wire
@@ -32,4 +36,9 @@ sort data.txt | uniq -u
 strings data.txt | grep '=='
 ```
 
-truKLdjsbJ5g7yyJ2X2R0o3a5HQJFuLk
+#### Level 10
+```shell
+base64 -d data.txt
+```
+
+IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
